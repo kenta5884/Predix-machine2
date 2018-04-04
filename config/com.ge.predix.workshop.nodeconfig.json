@@ -56,7 +56,7 @@
   {
     "simulateAlarm": false,
     "assetId": "Compressor-2017",
-    "nodeName": "Compressor-2017:Velocity",
+    "nodeName": "Compressor-2017:Velovelovelosity",
     "dataType": "DOUBLE",
     "upperThreshold": 0.1,
     "lowerThreshold": 0.0,

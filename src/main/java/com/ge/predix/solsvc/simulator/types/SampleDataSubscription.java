@@ -132,6 +132,11 @@ public class SampleDataSubscription implements Runnable, IDataSubscription {
 				
 				for (PDataNode node : this.adapter.getNodes()) {
 					ITransferable data = (ITransferable)this.adapter.readData(node.getNodeId());
+
+					//this place is important
+					System.out.printf("%d\n", data);
+					System.out.printf(" hey\n");
+					//this place was important
 					dataList.add(data);
 				}
 
